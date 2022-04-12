@@ -1,0 +1,37 @@
+:root {
+--main-font:roboto;
+--secondary-font: 'Raleway', sans-serif;
+--accent-color: #2196f3;
+
+}
+
+body {
+    font-family: var(main-font);
+}
+
+
+/*  HEADER  */
+
+.logo, .logo-span {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.logo-span {
+    
+    color: #000000;
+}
+
+}
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
