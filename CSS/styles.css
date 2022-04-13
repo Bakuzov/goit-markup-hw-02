@@ -1,14 +1,26 @@
 :root {
 --main-font:roboto;
---secondary-font: 'Raleway', sans-serif;
+--secondary-font: Raleway, sans-serif;
 --accent-color: #2196f3;
+--dark-bg-color: #2F303A;
+--header-bg-color: #FFFFFF;
+--light1-bg-color:#E5E5E5; /*  middle psrt of index.html  */
+--light2-bg-color:#F5F4FA;
+--primery-text-color:#212121;
+--secondary-text-color:#757575;
 
 }
 
 body {
-    font-family: var(main-font);
+    font-family: var(--main-font);
+    color: var(--primery-text-color);
 }
-
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
 
 /*  HEADER  */
 
@@ -20,18 +32,59 @@ body {
     letter-spacing: 0.03em;
     color: var(--accent-color);
 }
-
-.logo-span {
-    
+.logo-span { 
     color: #000000;
 }
 
+.menu-link {
+    color: var(--primery-text-color);
 }
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-/* identical to box height */
+.link:hover,
+.link:focus{
+    color: var(--accent-color);
+}
+.menu-link.active {
+    color: var(--accent-color);
+}
+.header-mail,.header-phone {
+    color: var(--secondary-text-color);
+}
+/*  Hero  */
+.hero{
+    background-color: var(--dark-bg-color);
+    color: var(--dark-bg-color);
+}
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--header-bg-color);
+}
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--header-bg-color);
+    background-color: var(--accent-color);
+    border-radius: 4px;
+    border: none;
+}
+.hero-button:hover ,
+.hero-button:focus{
+    background-color: #188CE8;
+}
 
-letter-spacing: 0.03em;
+.section-title-h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
