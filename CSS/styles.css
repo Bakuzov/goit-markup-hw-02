@@ -17,16 +17,31 @@ body {
 }
 .list {
     list-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .link {
     text-decoration: none;
+    font-style: normal;
     
 }
 .section {
-    background:var(--light2-bg-color)
+    background:var(--light1-bg-color)
 }
 .section-team {
-    background-color: var(--light1-bg-color);
+    background-color: var(--light2-bg-color);
+    
+}
+.section-title-list {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: var(--primery-text-color);
 }
 
 /*  HEADER  */
@@ -44,7 +59,7 @@ body {
 }
 
 .menu-link {
-    font-weight: 500;
+    
     color: var(--primery-text-color);
 }
 .link:hover,
@@ -127,13 +142,16 @@ body {
 .logo-footer {
     color: var(--header-bg-color);
 }
-.footer-addres {
+.footer-addres,.text {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--header-bg-color);
 }
+.text{
+    color: var(--secondary-text-color);
+} 
 .link-footer {
     font-weight: 400;
     font-size: 14px;
@@ -165,7 +183,7 @@ body {
 }
 
 .portfolio-list {
-    background: var(--light1-bg-colorr);
+    background: var(--light1-bg-color);
     border: 1px solid #eeeeee;
     box-sizing: border-box;
 }
