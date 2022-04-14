@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework1</title>
+    <title>Homework2</title>
     <link rel="stylesheet" href="./CSS/styles.css" />
   </head>
   <body>
@@ -18,7 +18,7 @@
             <a class="menu-link link active" href="#">Студия</a>
           </li>
           <li class="menu-item">
-            <a class="menu-link link" href="#">Портфолио</a>
+            <a class="menu-link link" href="./portfolio.html">Портфолио</a>
           </li>
           <li class="menu-item">
             <a class="menu-link link" href="#">Контакты</a>
@@ -100,18 +100,18 @@
       </section>
 
       <!--Наша команда / Our team (OT)-->
-      <section class="section">
+      <section class="section-team">
         <h2>Наша команда</h2>
         <ul class="list">
           <li>
             <img src="./images/igor.jpg" alt="Igor's portrate" width="270" />
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <h3 class="employees-name">Игорь Демьяненко</h3>
+            <p class="position">Product Designer</p>
           </li>
           <li>
             <img src="./images/olga.jpg" alt="Olga's portrate" width="270" />
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="employees-name">Ольга Репина</h3>
+            <p class="position">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -119,8 +119,8 @@
               alt="Nikolay's portrate"
               width="270"
             />
-            <h3>Николай Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="employees-name">Николай Тарасов</h3>
+            <p class="position">Marketing</p>
           </li>
           <li>
             <img
@@ -128,21 +128,23 @@
               alt="Mikhail's portrate"
               width="270"
             />
-            <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <h3 class="employees-name">Михаил Ермаков</h3>
+            <p class="position">UI Designer</p>
           </li>
         </ul>
       </section>
 
       <!--Подвал-->
     </main>
-    <footer>
-      <a class="link" href="/">WebStudio</a>
+    <footer class="footer">
+      <a class="logo link" href="/"
+        >Web<span class="logo-span logo-footer">Studio</span></a
+      >
       <address>
-        <ul class="link">
+        <ul class="link list">
           <li>
             <a
-              class="link"
+              class="footer-addres link"
               href="https://goo.gl/maps/YVmsHKJiKJfyMNRH6"
               target="blank"
               rel="noopener noreferrer"
@@ -150,12 +152,14 @@
             >
           </li>
           <li>
-            <a class="link" href="mailto:info@devstudio.com"
+            <a class="link-footer link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="link-footer link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </address>
